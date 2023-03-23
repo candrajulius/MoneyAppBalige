@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardElevation="5dp"
+        android:id="@+id/item_card"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/id_village"
+                android:textColor="@android:color/black"
+                android:id="@+id/id_village"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_village"
+                android:layout_marginTop="10dp"
+                android:text="@string/name_village"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anggaran Desa"
+                android:id="@+id/budget_village"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BLT SUSKEUDES S/D JUNI"
+                android:id="@+id/sukeudes_budget_jun"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BLT SUSKEUDES S/D DES"
+                android:id="@+id/sukeudes_budget_des"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/sudistrict"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:text="@string/subdistrict" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/regency_data"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:id="@+id/regency"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tahun"
+                android:id="@+id/year_village"
+                android:textSize="12sp"
+                android:textColor="@color/primary"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="5dp"
+                android:layout_weight="2"
+                android:gravity="center">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    android:focusable="true"
+                    android:id="@+id/btn_delete"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@android:color/holo_red_light"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="@string/delete_data_village"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_baseline_delete_24"
+                        android:contentDescription="Gambar hapus" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_edit_data"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@android:color/holo_green_light"
+                    app:cardElevation="5dp"
+                    android:layout_marginStart="10dp"
+                    android:focusable="true"
+                    >
+
+                    <ImageView
+                        android:padding="10dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_baseline_edit_24"
+                        android:contentDescription="Gambar edit" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

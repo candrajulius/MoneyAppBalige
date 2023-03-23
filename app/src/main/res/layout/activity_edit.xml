@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.edit.EditActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Masukkan kecamatan"
+        android:id="@+id/til_regency"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@android:color/black"
+        android:layout_marginEnd="16dp"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/edt_regency"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Masukkan Id Desa"
+        android:id="@+id/till_id_village"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@android:color/black"
+        android:layout_marginEnd="16dp"
+        app:counterMaxLength="10"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edt_id_village"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Masukkan Nama Desa"
+        android:id="@+id/till_name_village"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@android:color/black"
+        android:layout_marginEnd="16dp"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/edt_name_village"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Masukkan Total Anggaran"
+        android:id="@+id/till_total_budget"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@android:color/black"
+        android:layout_marginEnd="16dp"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edt_total_budget"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Masukkan Tahun"
+        android:id="@+id/till_year"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@android:color/black"
+        android:layout_marginEnd="16dp"
+        app:counterMaxLength="4"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edt_year"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Masukkan Anggaran BLT SUKEUDES S/D JUNI"
+        android:id="@+id/till_total_budget_juni"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@android:color/black"
+        android:layout_marginEnd="16dp"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edt_total_budget_juni"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:hint="Masukkan BLT SUSKEUDES S/D DES"
+        android:id="@+id/till_total_budget_des"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@android:color/black"
+        android:layout_marginEnd="16dp"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edt_total_budget_desember"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_primary"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Tambah data"
+        android:textAllCaps="false"
+        android:id="@+id/btn_confirmation"/>
+
+
+
+</LinearLayout>

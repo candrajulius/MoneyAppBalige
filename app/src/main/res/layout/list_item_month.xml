@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardElevation="5dp"
+        android:id="@+id/item_card"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Anggaran yang disalurkan"
+                android:id="@+id/tv_budget_channeled"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:text="Jumlah KPM"
+                android:id="@+id/tv_range_kpm"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:text="Bulan"
+                android:id="@+id/tv_month"
+                />
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hapus data"
+                    android:drawableEnd="@drawable/ic_baseline_delete_24"
+                    app:cornerRadius="20dp"
+                    android:backgroundTint="@android:color/holo_red_light"
+                    android:textAllCaps="false"
+                    android:id="@+id/btn_delete" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    app:cornerRadius="20dp"
+                    android:drawableEnd="@drawable/ic_baseline_edit_24"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Ubah data"
+                    android:textAllCaps="false"
+                    android:id="@+id/btn_edit_data" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

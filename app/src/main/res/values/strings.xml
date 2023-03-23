@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MoneyApp</string>
+    <string name="welcome_app">welcome in %s</string>
+    <string name="title_buget">Total Anggaran Dana</string>
+    <string name="arrive_date">Dari bulan %s sampai bulan %s</string>
+    <string name="total_budget">%s</string>
+    <string name="title_profile">Profile</string>
+    <string name="delete_all">Hapus Semua</string>
+    <string name="delete_data_village">Hapus data</string>
+    <string name="subdistrict">Kecamatan %s</string>
+    <string name="name_village">Nama Desa</string>
+    <string name="id_village">Id Desa</string>
+    <string name="edit_data_village">Ubah data</string>
+    <string name="regency_data">Kabupaten Toba</string>
+    <string name="password_and_username_empty">Username dan Password tidak boleh kosong</string>
+    <string name="passsword_and_username_wrong">Username dan Password anda salah</string>
+    <string name="nothing_dtat_to_show">Tidak ada data yang ditampilkan</string>
+    <string name="yes_delete_data">Ya</string>
+    <string name="no_delete_data">Tidak</string>
+    <string name="message_dialog">Apakah anda yakin mau menghapus data %s</string>
+    <string name="toast_delete_success">Data berhasil dihapus</string>
+    <string name="toast_delete_failed">Data tidak jadi dihapus</string>
+    <string name="title_dialog_delete_data">Hapus data %s</string>
+    <string name="toast_dialog_not_empty">Data tidak ada yang boleh kosong</string>
+</resources>
